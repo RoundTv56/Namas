@@ -18,7 +18,6 @@ from ability.country import get_country_info
 from ability.dance import send_continuous_emotes
 from typing import Any, Dict, Union
 from keep_alive import keep_alive
-from replit import db
 
 keep_alive()
 from highrise import (
