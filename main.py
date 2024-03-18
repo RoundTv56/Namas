@@ -4,23 +4,16 @@ import os
 import json
 import importlib
 import sys
-import requests
 from highrise import ResponseError
-import requests
-import curses
-import discord
 import contextlib
 import random
 import logging
 import socket
-import eventlet
 from random import randrange
-import httpx
 from highrise import *
 from highrise.models import *
 from highrise.webapi import *
 from highrise.models_webapi import *
-from highrise.__main__ import * 
 from ability.country import get_country_info
 from ability.dance import send_continuous_emotes
 from typing import Any, Dict, Union
