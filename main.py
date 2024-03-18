@@ -36,6 +36,7 @@ from highrise import (
     CurrencyItem,
     GetMessagesRequest,
     Item,
+    TaskGroup,
 )
 from highrise.models import (
     AnchorPosition,
@@ -69,7 +70,6 @@ from time import time
 from math import sqrt
 from highrise import BaseBot, User, Position, AnchorPosition
 import time
-import aioconsole
  
 moderators = ["iZexy"]
 
