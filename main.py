@@ -71,7 +71,7 @@ from math import sqrt
 from highrise import BaseBot, User, Position, AnchorPosition
 import time
  
-moderators = ["iZexy"]
+moderators = ["NK6"]
 
 
 class Bot(BaseBot):
@@ -433,9 +433,9 @@ class Bot(BaseBot):
         "room_1": "646dce94304425f9e19f5c48",
         "room_2": "64c56b3f93191a44cc2aaa53",
     }
-    self.allowed_usernames = ["Dr_DeaTH", "iZexy", "__sohail"]
+    self.allowed_usernames = ["NK6", "NK6", "NK6"]
     self.load_developer_usernames()
-    self.owner = ["Dr_DeaTH", "iZexy", "__sohail"]
+    self.owner = ["NK6", "NK6", "NK6"]
     self.moderators = []
     self.invite_message = ''
     self.stop_signal = False
