@@ -2678,7 +2678,7 @@ class Bot(BaseBot):
             lines = json.loads(file_content)
 
         while True:
-            data = random.choice(quotes)
+            data = random.choice(lines)
             note_text = data["lines"] + " " + data["emoji"]
             await self.highrise.chat(note_text)
             await asyncio.sleep(75)
