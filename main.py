@@ -535,11 +535,11 @@ class Bot(BaseBot):
 
         elif message.lower() == "run inv" in message or "Run inv" in message:
           await self.highrise.send_message(conversation_id, "Invite sent Successfully!")
-          await self.send_invite_to_all_conversations('674471fd8fa43e92547d74a6')
+          await self.send_invite_to_all_conversations('672d2c54d286b946048f9189')
 
         elif message.lower() == "dm" in message or "Dm" in message:
           await self.highrise.send_message(conversation_id, "Giveaway Dm sent Successfully!")
-          await self.follow_dm('674471fd8fa43e92547d74a6')
+          await self.follow_dm('672d2c54d286b946048f9189')
 
         elif message.lower() == "emotelist":
           await self.highrise.send_message(conversation_id, "emotelist...")
@@ -581,10 +581,10 @@ class Bot(BaseBot):
       await self.highrise.chat(message)
 
     if message.lstrip().startswith('og'):
-      await self.send_invite_to_all_conversations('674471fd8fa43e92547d74a6')
+      await self.send_invite_to_all_conversations('672d2c54d286b946048f9189')
 
     if message.lstrip().startswith('dm'):
-      await self.follow_dm('674471fd8fa43e92547d74a6')
+      await self.follow_dm('672d2c54d286b946048f9189')
     
     if "Floor 1" in message.lower():
       try:
