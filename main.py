@@ -2628,37 +2628,47 @@ class Bot(BaseBot):
     for conversation_id in conversation_ids:
       await self.highrise.send_message(conversation_id, "Join my room!", "invite", roomId)
 
+
   async def emote_loop(self):
     while True:
         await self.highrise.send_emote(
             random.choice([
-              "idle-loop-sitfloor", "emote-tired", "emote-pose7", "emoji-thumbsup",
-              "emoji-angry", "dance-macarena", "emote-hello", "dance-weird",
-              "emote-superpose", "idle-lookup", "idle-hero", "emote-wings",
-              "emote-laughing", "emote-kiss", "emote-wave", "emote-hearteyes",
-              "emote-theatrical", "emote-teleporting", "emote-slap", "emote-ropepull",
-              "emote-think", "emote-hot", "dance-shoppingcart", "emote-greedy",
-              "emote-frustrated", "emote-float", "emote-baseball", "emote-yes",
-              "idle_singing", "idle-floorsleeping", "idle-loop-sitfloor",
-              "idle-enthusiastic", "emote-confused", "emoji-celebrate", "emote-no",
-              "emote-swordfight", "emote-shy", "dance-tiktok2", "emote-model",
-              "emote-charging", "emote-snake", "dance-russian", "emote-sad",
-              "emote-lust", "emoji-cursing", "emoji-flex", "emoji-gagging",
-              "dance-tiktok8", "dance-blackpink", "dance-pennywise", "emote-bow",
-              "emote-curtsy", "emote-snowball", "emote-snowangel", "emote-telekinesis",
-              "idle-dance-tiktok4"
-              "emote-maniac", "emote-energyball", "emote-frog", "emote-cute",
-              "dance-tiktok9", "dance-tiktok10", "emote-pose7", "emote-pose8",
-              "idle-dance-casual", "emote-pose1", "dance-sexy", "emote-pose3",
-              "emote-pose5", "emote-cutey", "emote-Relaxing", "emote-model",
-              "emote-fashionista", "emote-gravity", "emote-zombierun",
-              "emoji-ceilebrate", "emoji-floss", "emote-Relaxing ", "emote-punkguitar",
-              "dance-tiktok9", "dance-weird", "emote-punkguitar", "idle-uwu"
-              "emote-swordfight", "emote-handstand", "emote-bow", "emote-cursty",
-              "dance-breakdance", "emote-creepycute", "emote-headblowup", "idle-guitar",
-                # ... (add your emote choices here)
+               "emoji-floss",
             ]))
         await asyncio.sleep(4)
+
+
+  # async def emote_loop(self):
+  #   while True:
+  #       await self.highrise.send_emote(
+  #           random.choice([
+  #             "idle-loop-sitfloor", "emote-tired", "emote-pose7", "emoji-thumbsup",
+  #             "emoji-angry", "dance-macarena", "emote-hello", "dance-weird",
+  #             "emote-superpose", "idle-lookup", "idle-hero", "emote-wings",
+  #             "emote-laughing", "emote-kiss", "emote-wave", "emote-hearteyes",
+  #             "emote-theatrical", "emote-teleporting", "emote-slap", "emote-ropepull",
+  #             "emote-think", "emote-hot", "dance-shoppingcart", "emote-greedy",
+  #             "emote-frustrated", "emote-float", "emote-baseball", "emote-yes",
+  #             "idle_singing", "idle-floorsleeping", "idle-loop-sitfloor",
+  #             "idle-enthusiastic", "emote-confused", "emoji-celebrate", "emote-no",
+  #             "emote-swordfight", "emote-shy", "dance-tiktok2", "emote-model",
+  #             "emote-charging", "emote-snake", "dance-russian", "emote-sad",
+  #             "emote-lust", "emoji-cursing", "emoji-flex", "emoji-gagging",
+  #             "dance-tiktok8", "dance-blackpink", "dance-pennywise", "emote-bow",
+  #             "emote-curtsy", "emote-snowball", "emote-snowangel", "emote-telekinesis",
+  #             "idle-dance-tiktok4"
+  #             "emote-maniac", "emote-energyball", "emote-frog", "emote-cute",
+  #             "dance-tiktok9", "dance-tiktok10", "emote-pose7", "emote-pose8",
+  #             "idle-dance-casual", "emote-pose1", "dance-sexy", "emote-pose3",
+  #             "emote-pose5", "emote-cutey", "emote-Relaxing", "emote-model",
+  #             "emote-fashionista", "emote-gravity", "emote-zombierun",
+  #             "emoji-ceilebrate", "emoji-floss", "emote-Relaxing ", "emote-punkguitar",
+  #             "dance-tiktok9", "dance-weird", "emote-punkguitar", "idle-uwu"
+  #             "emote-swordfight", "emote-handstand", "emote-bow", "emote-cursty",
+  #             "dance-breakdance", "emote-creepycute", "emote-headblowup", "idle-guitar",
+  #               # ... (add your emote choices here)
+  #           ]))
+  #       await asyncio.sleep(4)
 
   async def quotes_loop(self):
     try:
