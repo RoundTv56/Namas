@@ -25,7 +25,7 @@ if __name__ == "__main__":
     bot_file_name_1 = "main"
     bot_class_name_1 = "Bot"
     room_id_1 = "672d2c54d286b946048f9189"
-    bot_token_1 = "62c10e9ddd744d57939d6c553e0e095619596617e5701c9c47ff2434213af4fb"   
+    bot_token_1 = "982f33e441a73368f6fea940b802e94ea3d230121c2b4f2ba13591261125595b"   
     my_bot_1 = BotDefinition(getattr(import_module(bot_file_name_1), bot_class_name_1)(), room_id_1, bot_token_1)
 
     keep_alive()
