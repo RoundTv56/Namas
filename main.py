@@ -458,10 +458,10 @@ class Bot(BaseBot):
       Item('clothing', 1, 'hair_back-n_basic2018wavypulledback', False, 7),
       Item('clothing', 1, 'hair_front-n_malenew07', False, 7),
       Item('clothing', 1, 'shirt-n_2016fallblackkknottedtee', True, 7),
+      item('Glasses',  1, 'glasses-n_starteritems2019squareframesblack', True, 1),
       Item('clothing', 1, 'pants-n_room32019highwasittrackshortsblack', False,
            7),
       Item('clothing', 1, 'shoes-n_room22019kneehighsblack', False, 7),
-      item('Glasses',  1, 'glasses-n_starteritems2019squareframesblack', True, 3),
   ]]
 
 
