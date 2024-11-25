@@ -461,7 +461,7 @@ class Bot(BaseBot):
       Item('clothing', 1, 'pants-n_room32019highwasittrackshortsblack', False,
            7),
       Item('clothing', 1, 'shoes-n_room22019kneehighsblack', False, 7),
-      item('Glasses',  1, 'glasses-n_starteritems2019squareframesblack', True, 7),
+      item('Glasses',  1, 'glasses-n_starteritems2019squareframesblack', True),
   ]]
 
 
