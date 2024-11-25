@@ -2675,11 +2675,11 @@ class Bot(BaseBot):
                 print("Warning: 'quotes.json' is empty or contains only whitespace.")
                 return
 
-            quotes = json.loads(file_content)
+            lines = json.loads(file_content)
 
         while True:
             data = random.choice(quotes)
-            note_text = data["quote"] + " " + data["emoji"]
+            note_text = data["lines"] + " " + data["emoji"]
             await self.highrise.chat(note_text)
             await asyncio.sleep(75)
     except json.JSONDecodeError as e:
