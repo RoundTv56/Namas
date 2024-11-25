@@ -475,7 +475,7 @@ class Bot(BaseBot):
 
     # Teleport and start all three loops concurrently
     await asyncio.gather(
-        self.highrise.teleport(session_metadata.user_id, Position(18.5, 0.0, 8.0, "FrontLeft")),
+        self.highrise.teleport(session_metadata.user_id, Position(19.5, 0.0, 5.0, "FrontRight")),
         quotes_loop_task,
         emote_loop_task
     )
