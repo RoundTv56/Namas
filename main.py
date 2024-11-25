@@ -2631,7 +2631,7 @@ class Bot(BaseBot):
   async def emote_loop(self):
     while True:
         await self.highrise.send_emote(
-            random.choice(["emoji-floss",])
+            random.choice(["emoji-floss", "emoji-floss"])
         await asyncio.sleep(4)
 
 
