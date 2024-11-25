@@ -531,7 +531,7 @@ class Bot(BaseBot):
          await self.highrise.send_message(conversation_id,"\nHey,\ncommands:\n1. To repeat an emote, use 'Loop emote-emote' (e.g., 'Loop Sayso').\n2. Explore additional features by checking the bio or typing 'list'.\n3. Interested in your own bot? PM the owner for more info (Paid).\nEnjoy!")
 
         elif message.lower() == "Rent bot" in message or "Rent" in message or "!rent" in message or "rent bot" in message:
-         await self.highrise.send_message(conversation_id,"\nHey\nGet a custom bot with 24/7 support & cool features! PM @iZexy for details. Only 5k/month.")
+         await self.highrise.send_message(conversation_id,"\nHey\nGet a custom bot with 24/7 support & cool features! PM @WhoAngry on telegram for details. Only 5k/month.")
 
         elif message.lower() == "run inv" in message or "Run inv" in message:
           await self.highrise.send_message(conversation_id, "Invite sent Successfully!")
