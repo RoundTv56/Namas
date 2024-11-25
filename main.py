@@ -534,7 +534,7 @@ class Bot(BaseBot):
          await self.highrise.send_message(conversation_id,"\nHey\nGet a custom bot with 24/7 support & cool features! PM @WhoAngry on telegram for details. Only 5k/month.")
 
         elif message.lower() == "run inv" in message or "Run inv" in message:
-          await self.highrise.send_message(conversation_id, "Invite sent Successfully!")
+          await self.highrise.send_message(conversation_id, "Invite sent Successfully!")---------_--ping
           await self.send_invite_to_all_conversations('672d2c54d286b946048f9189')
 
         elif message.lower() == "dm" in message or "Dm" in message:
