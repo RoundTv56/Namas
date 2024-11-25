@@ -2633,7 +2633,7 @@ class Bot(BaseBot):
         random.choice([
               "dance-breakdance", "emote-hot", "emoji-floss"
                 # ... (add your emote choices here)
-            ]))
+            ])
         await asyncio.sleep(4)
 
 
